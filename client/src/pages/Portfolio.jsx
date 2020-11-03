@@ -1,13 +1,13 @@
 import React, { Component } from 'react';
 
-class Footer extends Component {
+class Portfolio extends Component {
     render() {
         return (
             <div>
-                <h1>Foot Foot ddotooot</h1>
+                <h1>this is my portfolio</h1>
             </div>
         );
     }
 }
 
-export default Footer;
+export default Portfolio;

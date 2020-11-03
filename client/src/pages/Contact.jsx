@@ -1,13 +1,13 @@
 import React, { Component } from 'react';
 
-class Footer extends Component {
+class Contact extends Component {
     render() {
         return (
             <div>
-                <h1>Foot Foot ddotooot</h1>
+                <h1>This is the contact form/links</h1>
             </div>
         );
     }
 }
 
-export default Footer;
+export default Contact;

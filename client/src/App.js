@@ -1,9 +1,18 @@
 import React, { useEffect } from "react";
 import Header from "./components/Header";
-// import Footer from "./components/Footer";
-import "./App.css";
+import Home from "./pages/Home";
+import Contact from "./pages/Contact";
+import Portfolio from "./pages/Portfolio";
+import {
+  BrowserRouter as Router,
+  Route,
+  Switch,
+  // Link,
+  // Redirect,
+  // useLocation,
+} from "react-router-dom";
+import Footer from "./components/Footer";
 import axios from "axios";
-// import Router from "express";
 // import View from "react-dom";
 
 function App() {
@@ -19,10 +28,18 @@ function App() {
       });
   }, []);
   return (
-    <div className="App">
-      <Header />
-      <h1>Hello world!</h1>
-    </div>
+    <Router>
+      <div className="App">
+        <Header />
+        <Switch>
+          <Route exact path="/" component={Home} />
+          <Route exact path="/Portfolio" component={Portfolio} />
+          <Route exact path="/Contact" component={Contact} />
+        </Switch>
+        <Footer />
+        <h1>Hello!</h1>
+      </div>
+    </Router>
   );
 }
 
