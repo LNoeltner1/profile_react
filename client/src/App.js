@@ -37,7 +37,6 @@ function App() {
           <Route exact path="/Contact" component={Contact} />
         </Switch>
         <Footer />
-        <h1>Hello!</h1>
       </div>
     </Router>
   );
