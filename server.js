@@ -32,6 +32,10 @@ connection.on("error", (err) => {
   console.log("Mongoose connection error: ", err);
 });
 
+if (process.env.NODE_ENV === "production") {
+  app.use(express.static("client/build"));
+}
+
 //tester
 app.get("/api/config", (req, res) => {
   res.json({
