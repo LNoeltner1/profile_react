@@ -1,9 +1,12 @@
 import React, { Component } from 'react';
+import "./pages.css";
 
 class Home extends Component {
     render() {
         return (
             <div>
+                <br />
+                <br />
               <main className="container">
                 <section className="row">
                     <div className="col-xs-5 col-sm-6 col-md-4 col-lg-4 col-xl-4">

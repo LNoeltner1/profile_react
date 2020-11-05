@@ -1,0 +1,54 @@
+/* "Lauren Noeltner" in top left corner */
+
+#myName {
+  background-color: teal;
+  padding-top: 5px;
+  padding-bottom: 5px;
+  padding-left: 15px;
+  padding-right: 15px;
+  font-size: 30px;
+  border-style: solid;
+  border-width: 3px;
+  border-color: rgba(255, 255, 255, 0.863);
+  font-weight: 600;
+  margin-left: 5%;
+  border-radius: 5px;
+  color: rgb(214, 214, 214);
+}
+
+/* navbar */
+.navbar {
+  border-radius: 3px;
+  border: teal;
+  border-style: solid;
+}
+
+.headBtn {
+  margin-left: 8px;
+  margin-right: 8px;
+  color: teal;
+  border-radius: 5px;
+  border-color: teal;
+  border-width: 2px;
+  font-weight: 500;
+  border-style: solid;
+  padding: 9px;
+  background-color: white;
+}
+
+/* Footer */
+
+.page-footer {
+  background-color: white;
+  border-top-style: solid;
+  border-color: teal;
+  margin-top: 100px;
+}
+
+#footText {
+  font-size: 14px;
+  font-weight: 400;
+  text-align: center;
+  font-style: italic;
+  padding: 20px;
+}

@@ -1,0 +1,88 @@
+/* Background */
+
+body {
+  background-image: url("ignasi_pattern1.png");
+}
+
+/* Bio Image */
+
+#bioimage {
+  float: left !important;
+  max-height: 300px;
+  max-width: 200px;
+  margin: 10px;
+  border-style: solid;
+  border-width: 2px;
+  border-color: black;
+  border-radius: 3px;
+}
+
+/* Main Body Container-All Pages */
+
+.container {
+  background-color: white;
+  border: 3px;
+  border-style: solid;
+  border-color: teal;
+  min-height: max-content;
+  border-radius: 7px;
+}
+
+/* Title of Each Page */
+
+h1 {
+  color: teal;
+  text-align: center;
+  padding-top: 15px;
+}
+
+/* Images in portfolio page */
+
+.portfolio-thumbnail {
+  max-height: 90%;
+  max-width: 90%;
+  border-style: solid;
+  border-width: 1px;
+  padding: 5px;
+  margin: 15px;
+}
+
+/* caption text */
+
+.captionText {
+  color: rgb(27, 27, 27);
+  font-size: 12px;
+  text-align: center;
+}
+
+/* Contact Me form for email */
+
+form {
+  padding: 50px;
+  margin: 30px;
+}
+
+/* Submit Button Contact Page */
+
+.btn_btn-primary {
+  min-width: 150px;
+  background: #299be4;
+  border: none;
+  min-height: 38px;
+  border-radius: 2px;
+}
+
+/* Social Media Link Buttons next to "Contact" header */
+
+.linkedinlink,
+.githublink {
+  float: right;
+  color: teal;
+  background-color: whitesmoke;
+  margin: 20px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  padding-right: 15px;
+  padding-left: 15px;
+  border-radius: 5px;
+}

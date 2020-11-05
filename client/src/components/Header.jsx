@@ -9,7 +9,7 @@ class Header extends Component {
         
             <div>
                 <nav class="navbar navbar-expand-lg navbar-light bg-light">
-                    <NavLink to="/" activeClassName="selected">Lauren Noeltner</NavLink>
+                    <NavLink to="/" activeClassName="selected" id="myName">Lauren Noeltner</NavLink>
                     <button
                         className="navbar-toggler"
                         type="button"
@@ -23,11 +23,9 @@ class Header extends Component {
                     </button>
                     <div className="collapse navbar-collapse" id="navbarNavAltMarkup">
                         <div className="navbar-nav ml-auto">
-                        <div><NavLink to="/" activeClassName="selected">About Me</NavLink></div>
-                        <div><NavLink to="/Portfolio" activeClassName="selected">Portfolio</NavLink></div>
-                        <div><NavLink to="/Contact" activeClassName="selected">Contact Me</NavLink></div>
-                        
-                        {/* <a className="nav-link active" href="resume.html">Resume</a> */}
+                        <div><NavLink to="/" className="headBtn" activeClassName="selected">About Me</NavLink></div>
+                        <div><NavLink to="/Portfolio" className="headBtn" activeClassName="selected">Portfolio</NavLink></div>
+                        <div><NavLink to="/Contact" className="headBtn" activeClassName="selected">Contact Me</NavLink></div>
                         </div>
                     </div>
                 </nav>
