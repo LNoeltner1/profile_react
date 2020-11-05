@@ -4,7 +4,6 @@ class Portfolio extends Component {
     render() {
         return (
             <div>
-                <h1>this is my portfolio</h1>
                 <main className="container">
                     <section className="row">
                         <div className="col-xs-5 col-sm-6 col-md-4 col-lg-4 col-xl-4">
