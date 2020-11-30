@@ -1,5 +1,10 @@
 import React, { Component } from 'react';
 import "./pages.css";
+import cryptic_encounters_screenshot from "./Images/cryptic_encounters_screenshot.png";
+import GiddyItUp_screenshot from "./Images/GiddyItUp_screenshot.png";
+import budget_tracker_screenshot from "./Images/budget_tracker_screenshot.png";
+import teamgeneratorthumbnail from "./Images/teamgeneratorthumbnail.png";
+
 
 class Portfolio extends Component {
     render() {
@@ -20,13 +25,13 @@ class Portfolio extends Component {
                         <figure>
                             <a href="https://cryptic-encounter.herokuapp.com/">
                                 <img
-                                    src="assets\Images\cryptic_encounters_screenshot.png"
+                                    src={cryptic_encounters_screenshot}
                                     className="portfolio-thumbnail"
                                     alt="Lauren Noeltner Portfolio Image"
                                 />
                             </a>
                             <figcaption className="captionText">
-                            Cryptic Encounters: A Haunted House Adventure - Dialogue-based
+                            "Cryptic Encounters: A Haunted House Adventure" - Dialogue-based
                             game with choices. Click the screenshot to play!
                             <a href="https://github.com/LNoeltner1/cryptic-encounters"
                                 >|| Repository Link</a
@@ -36,18 +41,23 @@ class Portfolio extends Component {
 
                         </div>
                         <div className="col-xs-12 col-sm-12 col-md-6 col-lg-6 col-xl-6">
-                        <a href="https://lnoeltner1.github.io/Random_Password_Generator_App/">
-                            <figure className="captionText">
-                            <img
-                                src="assets\Images\03-javascript-homework-demo.png"
-                                className="portfolio-thumbnail"
-                                alt="Lauren Noeltner Portfolio Image"
-                            />
+                        
+                        <figure>
+                            <a href="https://giddyitup-eg.herokuapp.com/">
+                                <img
+                                    src={GiddyItUp_screenshot}
+                                    className="portfolio-thumbnail"
+                                    alt="Lauren Noeltner Portfolio Image"
+                                />
+                            </a>
                             <figcaption className="captionText">
-                                Random Password Generator App
+                                Wild West themed and gamified chore app for young children
+                            <a href="https://github.com/LNoeltner1/GiddyItUp"
+                                >|| Repository Link</a
+                            >
                             </figcaption>
-                            </figure>
-                        </a>
+                        </figure>
+                        
                         </div>
                     </section>
                     <section className="row">
@@ -57,7 +67,7 @@ class Portfolio extends Component {
                         >
                             <figure>
                             <img
-                                src="assets\Images\teamgeneratorthumbnail.png"
+                                src={teamgeneratorthumbnail}
                                 className="portfolio-thumbnail"
                                 alt="Lauren Noeltner Portfolio Image"
                             />
@@ -68,16 +78,15 @@ class Portfolio extends Component {
                         </a>
                         </div>
                         <div className="col-xs-12 col-sm-12 col-md-6 col-lg-6 col-xl-6">
-                        <a href="https://github.com/LNoeltner1/MySQL_Employee_Tracker">
+                        <a href="https://github.com/LNoeltner1/budget-tracker">
                             <figure>
                             <img
-                                src="assets\Images\employeetrackerthumbnail.png"
+                                src={budget_tracker_screenshot}
                                 className="portfolio-thumbnail"
                                 alt="Lauren Noeltner Portfolio Image"
                             />
                             <figcaption className="captionText">
-                                CLI App for tracking, adding, and viewing a company's
-                                Departments, Roles, and Employees
+                                Online/Offline budget tracking app with listed expenses, income and a graphical representation of your spending.
                             </figcaption>
                             </figure>
                         </a>
