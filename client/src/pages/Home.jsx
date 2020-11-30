@@ -1,5 +1,6 @@
 import React, { Component } from 'react';
 import "./pages.css";
+import profilepic from "./Images/IMG_0575_83501212705938.JPG";
 
 class Home extends Component {
     render() {
@@ -18,7 +19,7 @@ class Home extends Component {
                 <section className="row">
                     <div className="col-xs-12 col-sm-12 col-md-12 col-lg-12 col-xl-12">
                     <img
-                        src="assets\Images\IMG_0575_83501212705938.JPG"
+                        src={profilepic}
                         className="mr-3"
                         id="bioimage"
                         alt="Lauren Noeltner Picture"

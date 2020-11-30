@@ -4,7 +4,9 @@ import cryptic_encounters_screenshot from "./Images/cryptic_encounters_screensho
 import GiddyItUp_screenshot from "./Images/GiddyItUp_screenshot.png";
 import budget_tracker_screenshot from "./Images/budget_tracker_screenshot.png";
 import teamgeneratorthumbnail from "./Images/teamgeneratorthumbnail.png";
-
+import workout_screenshot_charts from "./Images/workout_screenshot_charts.png";
+import weatherDashboard from "./Images/weatherDashboard.png";
+import passwordGenerator from "./Images/IMG_0575_83501212705938.JPG";
 
 class Portfolio extends Component {
     render() {
@@ -111,12 +113,44 @@ class Portfolio extends Component {
                         <a href="https://lnoeltner1.github.io/API_Weather_Dashboard/"
                             ><figure>
                             <img
-                                src="assets\Images\weatherDashboard.png"
+                                src={weatherDashboard}
                                 className="portfolio-thumbnail"
                                 alt="Lauren Noeltner Weather Dashboard"
                             />
                             <figcaption className="captionText">
                                 Current Weather and 5-Day Forecast App using API calls
+                            </figcaption>
+                            </figure>
+                        </a>
+                        </div>
+                    </section>
+                    <section className="row">
+                        <div className="col-xs-12 col-sm-12 col-md-6 col-lg-6 col-xl-6">
+                        <a href="https://github.com/LNoeltner1/https://workout-tracker-3.herokuapp.com/">
+                            <figure>
+                            <img
+                                src={workout_screenshot_charts}
+                                className="portfolio-thumbnail"
+                                alt="Lauren Noeltner Portfolio Image"
+                            />
+                            <figcaption className="captionText">
+                                Workout tracker app with graphical breakdowns of recent workouts
+                                <a href="https://github.com/LNoeltner1/workout_tracker"> || Repo Link</a>
+                            </figcaption>
+                            </figure>
+                        </a>
+                        </div>
+                        <div className="col-xs-12 col-sm-12 col-md-6 col-lg-6 col-xl-6">
+                        <a href="lnoeltner1.github.io/random_password_generator_app/"
+                            ><figure>
+                            <img
+                                src={passwordGenerator}
+                                className="portfolio-thumbnail"
+                                alt="Lauren Noeltner Weather Dashboard"
+                            />
+                            <figcaption className="captionText">
+                                Random Password Generator App with options for character type
+                                <a href="https://github.com/LNoeltner1/Random_Password_Generator_App"> || Repo Link</a>
                             </figcaption>
                             </figure>
                         </a>
