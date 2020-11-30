@@ -81,7 +81,7 @@ class Portfolio extends Component {
                         </a>
                         </div>
                         <div className="col-xs-12 col-sm-12 col-md-6 col-lg-6 col-xl-6">
-                        <a href="https://github.com/LNoeltner1/budget-tracker">
+                        <a href="https://budget-tracker-lnoeltner.herokuapp.com/">
                             <figure>
                             <img
                                 src={budget_tracker_screenshot}
@@ -133,7 +133,7 @@ class Portfolio extends Component {
                     </section>
                     <section className="row">
                         <div className="col-xs-12 col-sm-12 col-md-6 col-lg-6 col-xl-6">
-                        <a href="https://github.com/LNoeltner1/https://workout-tracker-3.herokuapp.com/">
+                        <a href="https://workout-tracker-3.herokuapp.com/">
                             <figure>
                             <img
                                 src={workout_screenshot_charts}
@@ -148,7 +148,7 @@ class Portfolio extends Component {
                         </a>
                         </div>
                         <div className="col-xs-12 col-sm-12 col-md-6 col-lg-6 col-xl-6">
-                        <a href="lnoeltner1.github.io/random_password_generator_app/"
+                        <a href="https://lnoeltner1.github.io/Random_Password_Generator_App/"
                             ><figure>
                             <img
                                 src={passwordGenerator}
