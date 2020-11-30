@@ -6,7 +6,8 @@ import budget_tracker_screenshot from "./Images/budget_tracker_screenshot.png";
 import teamgeneratorthumbnail from "./Images/teamgeneratorthumbnail.png";
 import workout_screenshot_charts from "./Images/workout_screenshot_charts.png";
 import weatherDashboard from "./Images/weatherDashboard.png";
-import passwordGenerator from "./Images/IMG_0575_83501212705938.JPG";
+import passwordGenerator from "./Images/03-javascript-homework-demo.png";
+import Screenshot from "./Images/Screenshot.png";
 
 class Portfolio extends Component {
     render() {
@@ -74,7 +75,7 @@ class Portfolio extends Component {
                                 alt="Lauren Noeltner Portfolio Image"
                             />
                             <figcaption className="captionText">
-                                HTML Employee Summary Page Generator App
+                                HTML Employee Summary Page Generator CLI App
                             </figcaption>
                             </figure>
                         </a>
@@ -89,6 +90,9 @@ class Portfolio extends Component {
                             />
                             <figcaption className="captionText">
                                 Online/Offline budget tracking app with listed expenses, income and a graphical representation of your spending.
+                                <a href="https://github.com/LNoeltner1/budget-tracker"
+                                >|| Repository Link</a
+                            >
                             </figcaption>
                             </figure>
                         </a>
@@ -99,7 +103,7 @@ class Portfolio extends Component {
                         <a href="https://github.com/LNoeltner1/README_Generator">
                             <figure>
                             <img
-                                src="assets\Images\Screenshot.png"
+                                src={Screenshot}
                                 className="portfolio-thumbnail"
                                 alt="Lauren Noeltner Portfolio Image"
                             />
@@ -119,6 +123,9 @@ class Portfolio extends Component {
                             />
                             <figcaption className="captionText">
                                 Current Weather and 5-Day Forecast App using API calls
+                                <a href="https://github.com/LNoeltner1/API_Weather_Dashboard"
+                                >|| Repository Link</a
+                            >
                             </figcaption>
                             </figure>
                         </a>
@@ -135,7 +142,7 @@ class Portfolio extends Component {
                             />
                             <figcaption className="captionText">
                                 Workout tracker app with graphical breakdowns of recent workouts
-                                <a href="https://github.com/LNoeltner1/workout_tracker"> || Repo Link</a>
+                                <a href="https://github.com/LNoeltner1/workout_tracker"> || Repository Link</a>
                             </figcaption>
                             </figure>
                         </a>
@@ -150,7 +157,7 @@ class Portfolio extends Component {
                             />
                             <figcaption className="captionText">
                                 Random Password Generator App with options for character type
-                                <a href="https://github.com/LNoeltner1/Random_Password_Generator_App"> || Repo Link</a>
+                                <a href="https://github.com/LNoeltner1/Random_Password_Generator_App"> || Repository Link</a>
                             </figcaption>
                             </figure>
                         </a>
