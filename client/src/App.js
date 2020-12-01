@@ -12,7 +12,7 @@ import {
   // useLocation,
 } from "react-router-dom";
 import Footer from "./components/Footer";
-import axios from "axios";
+// import axios from "axios";
 // import View from "react-dom";
 
 function App() {
